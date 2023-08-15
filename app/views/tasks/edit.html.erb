@@ -1,0 +1,7 @@
+<h1>Task#edit</h1>
+
+<%= simple_form_for @task do |t| %>
+  <%= t.input :title %>
+  <%= t.input :details %>
+  <%= t.button :submit, class: "btn btn-warning" %>
+<% end %>
